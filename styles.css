@@ -1,0 +1,49 @@
+h3{
+    color: gainsboro;
+    font-style: italic;
+}
+body{
+    background-color: paleturquoise;
+    background-image: url('desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+}
+a {
+  font-family: monospace;
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: .3s;
+  font-size: 20px;
+}
+
+a:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+label{
+  color: rgb(185, 193, 196);
+  font-size: larger;
+}
+.input {
+  background-color: #b3acac;
+  max-width: 140px;
+  height: 15px;
+  padding: 10px;
+  
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.input:focus {
+  color: rgb(21, 24, 24);
+  background-color: #cfc6c6;
+  outline-color: rgb(0, 255, 255);
+  box-shadow: -3px -3px 15px rgb(0, 255, 255);
+  transition: .1s;
+  transition-property: box-shadow;
+}
